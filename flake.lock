@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "klassy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1729329784,
+        "narHash": "sha256-tFqze3xN1XECY74Gj0nScis7DVNOZO4wcfeA7mNZT5M=",
+        "ref": "refs/tags/6.2.breeze6.2.1",
+        "rev": "b136b6cd1580f9ef63dc5c0e02fe408323996e95",
+        "revCount": 3203,
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/paulmcauley/klassy/"
+      },
+      "original": {
+        "ref": "refs/tags/6.2.breeze6.2.1",
+        "submodules": true,
+        "type": "git",
+        "url": "https://github.com/paulmcauley/klassy/"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-AlcmCXJZPIlO5dmFzV3V2XF6x/OpNWUV8Y/FMPGd8Z4=",
+        "path": "/nix/store/lsy6c2f9alj2gkjj36h754kk63x6701l-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "klassy": "klassy",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
